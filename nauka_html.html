@@ -12,28 +12,34 @@
 <body>
 
     <header>
-        <nav>
-            <a class="nav_link" href="index.html">Strona głowna</a>
-            <a class="nav_link" href="nauka_html.html">HTML</a>
-            <a class="nav_link" href="nauka_css.html">CSS</a>
+        <nav class="nav">
+            <a class="nav__link" href="index.html">Strona głowna</a>
+            <a class="nav__link" href="nauka_html.html">HTML</a>
+            <a class="nav__link" href="nauka_css.html">CSS</a>
         </nav>
     </header>
 
     <main>
         <header>
-            <h1 class="main_header">Nauka HTML</h1>
+            <h1 class="main-header">Nauka HTML</h1>
         </header>
 
         <section>
-            <h2 class="header">Ciekawostki z HTML</h2>
+            <h2 class="section-header">Ciekawostki z HTML</h2>
 
-            <article>
-                <h3 class="header">Różnice w znacznikach b i oraz strong em </h3>
+            <article class="html-facts">
+                <h3 class="html-facts__header">Różnice w znacznikach b i oraz strong em </h3>
 
-                <p class="text">strong oraz em maja znaczenie semantyczne a b oraz i nie maja choc robia to samo</p>
+                <p class="html-facts__description">strong oraz em maja znaczenie semantyczne a b oraz i nie maja choc robia to samo</p>
 
             </article>
            
+            <article class="html-facts">
+                <h3 class="html-facts__header">Metodologia BEM </h3>
+
+                <p class="html-facts__description">Sposób pisania zmiennych typu 'hand' 'hand__finger' 'hand__finger--thumb'</p>
+
+            </article>
 
         </section>
     </main>
