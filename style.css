@@ -2,6 +2,11 @@ body {
   background-color: #fefefe;
 }
 
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .nav {
   background-color: #f3fa64;
   padding: 15px;
@@ -17,7 +22,6 @@ body {
 .main-header {
   font-size: 40px;
   color: #70abaf;
-  text-align: center;
 }
 
 .section-header {
@@ -62,4 +66,9 @@ body {
 
 .css-facts__description {
   color: #b3383e;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
 }
