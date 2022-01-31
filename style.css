@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #fefefe;
 }
@@ -10,6 +18,8 @@ body {
 .nav {
   background-color: #f3fa64;
   padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .nav__link {
