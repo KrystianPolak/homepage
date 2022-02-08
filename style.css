@@ -7,7 +7,10 @@ html {
 }
 
 body {
-  background-color: #fefefe;
+  background-color: #FFE53B;
+  background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 51%, #fbfb6e 100%);
+  height: 100vh;
+
 }
 
 .main {
@@ -31,54 +34,55 @@ body {
 
 .main-header {
   font-size: 40px;
-  color: #70abaf;
+  color: #095a5a;
 }
 
 .section-header {
-  color: #55b3a8;
+  color: #0a9686;
 }
 
 .week-summary {
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 15px;
 }
 
 .week-summary__header {
-  color: #55b3a8;
+  color: #0a8072;
 }
 
 
 .week-summary__description {
-  color: #b3383e;
+  color: #edf5d8;
 }
 
 .html-facts {
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 15px;
 }
 
 .html-facts__header {
-  color: #55b3a8;
+  color: #0a8072;
 }
 
 .html-facts__description {
-  color: #b3383e;
+  color: #edf5d8;
 }
 
 .css-facts {
-  border: 1px solid black;
+  border: 1px solid white;
   margin-bottom: 15px;
 }
 
 .css-facts__header {
-  color: #55b3a8;
+  color: #0a8072;
 }
 
 .css-facts__description {
-  color: #b3383e;
+  color: #edf5d8;
 }
 
 .footer {
   max-width: 1000px;
   margin: 0 auto;
+  color: #edf5d8;;
 }
