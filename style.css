@@ -9,7 +9,6 @@ html {
 body {
   background-color: #FFE53B;
   background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 51%, #fbfb6e 100%);
-  height: 100vh;
 
 }
 
@@ -32,9 +31,18 @@ body {
   margin-right: 20px;
 }
 
+.main__header {
+  grid-area: main__header;
+}
+
 .main-header {
   font-size: 40px;
   color: #095a5a;
+}
+
+.notes {
+  grid-area: notes;
+  padding: 16px;
 }
 
 .section-header {
@@ -81,8 +89,26 @@ body {
   color: #edf5d8;
 }
 
+
+.aside {
+  grid-area: aside;
+  padding: 16px;
+}
+
 .footer {
   max-width: 1000px;
   margin: 0 auto;
   color: #edf5d8;;
+}
+
+
+@media screen and (min-width: 768px) {
+  .main {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "main__header main__header"
+    "notes aside"
+    "footer footer" ;
+  }
 }
